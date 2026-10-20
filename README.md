@@ -1,4 +1,4 @@
-Watch me explain this lab: [LoomLink](LINK-HERE)
+Watch me explain this lab: [LoomLink](https://www.loom.com/share/1540010d8ce54a4d80038355543fd087)
  
 # terraform-azure-ad-domain-controller
  
