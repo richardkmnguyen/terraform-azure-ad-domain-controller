@@ -77,13 +77,28 @@ Key concepts I needed:
  
 ### 1. Installed the prerequisites
 On Windows 10 I installed the Azure CLI and Terraform, signed up for an Azure subscription, and created a project folder:
- 
+
+```powershell
+winget install -e --id Microsoft.AzureCLI
+```
+> To install Azure CLI, run the command above first.
+
 ```powershell
 az --version
-terraform -version
 az login
 az account show
 ```
+> After you install Azure CLI, run these commands to confirm your CLI is up to date, to login to your Azure account, and to confirm you're using the correct subscription.
+
+```powershell
+winget install Hashicorp.Terraform
+```
+> To install Terraform, run the command above.
+
+```powershell
+terraform -version
+```
+> Run this to verify that Terraform is installed and up to date.
  
 <img width="1920" height="439" alt="AutomateLabPrereqs2" src="https://github.com/user-attachments/assets/da3dd929-1337-482a-9d6c-146fd3fc81e5" />
 
